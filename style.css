@@ -1,0 +1,26 @@
+body {
+    min-height: 100vh;
+    display: flex;
+  }
+  .sidebar {
+    width: 220px;
+    background-color: #343a40;
+    color: white;
+  }
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+  .sidebar a:hover {
+    background-color: #495057;
+  }
+  .main {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  .card {
+    border: none;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
